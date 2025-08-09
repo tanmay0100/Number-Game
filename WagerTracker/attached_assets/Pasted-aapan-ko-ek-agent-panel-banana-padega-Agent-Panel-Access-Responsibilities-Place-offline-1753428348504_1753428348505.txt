@@ -1,0 +1,68 @@
+aapan ko ek agent panel banana padega 
+
+Agent Panel
+
+Access & Responsibilities:
+
+Place offline bets for customers.
+
+Add coins to customer accounts.
+
+Input total bet amounts per number.
+
+Create new customer accounts.
+
+View personal transaction history (not other agents').
+
+Track daily business volume (e.g., "Today’s total turnover: ₹50,000").
+
+tum bass batao yeh sab ban jaaega na ? bina error bina dikkat ke ?
+
+
+
+ek baar me complete scratch se batata hu ""Agent managment ka working"" uske baad tum sahi se batana kya sahi hai kya galat -
+
+jaisa aapan ne Agent managment banaya hai 
+
+usme
+
+View All Agents
+
+Create/Remove Agent
+
+Manage Agent Wallet
+
+Agent Revenue((yeh complete cheez bataega, ki kaunsi kaunsi jodi,ank,patti,double patti etc 
+pr kitn akya bet lagya hai aaj total kitni bets place ki hai and 
+total amount kya laga hai bet par aur bhi choti badi baaki sab cheeze ))
+
+me esa soch raha hu ki like agent jo bets lagaye customer ke behalf par toh bhi aapne
+Satta Matka Analytics
+Detailed revenue monitoring for Satta Matka
+pr count ho har jagha
+
+and aapan card me view details pr click kre to yaha subtotal cheeze dikhe user plus agent ki total hoke
+like kisi agent ne 0 pr 100 lagaye and kisi user ne bhi 0 pr 200 lagaye toh single ank - 300
+and neeche
+
+Popular Numbers
+Most played single ank today
+me card pr click kre toh
+
+Number Betting Details wale page me bhi show ho
+
+is type se ki Agent placed bet on 0 of 50k and agent wale row clickable ho use open kre to complete agent history dike like Agent Rajesh placed ₹500 bet for Customer Amit
+ese
+
+
+lekin aapne
+🎯 Satta Matka Analytics - in pages and inke aandar wale pages me  combine hoke data hona chaiye jaisa jaisa mene uppar bataya tha
+
+and and and
+Number Betting Details is page pr jaise user ki ek ek bet dikh rahi hai waise agen ki total bet dikhna chaiye us particular cheez ki like
+
+Agent Amit bet type Single ANk Amount 20K . time n/a
+aab is agen pr click krne ka option ho jis se detaild me chheze dekh sake like
+Agent Rajesh placed ₹500 for Customer Suresh - is type se multiple
+
+all clear... samajh aaya ?

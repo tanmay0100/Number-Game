@@ -1,0 +1,188 @@
+Create a modern, professional gaming application with liquid glass effects and vibrant gradients. Here are the exact specifications:
+
+🎨 OVERALL DESIGN SYSTEM
+Background & Color Scheme:
+Base background: White with subtle gradients per page
+Homepage: bg-gradient-to-br from-white via-orange-50/20 to-pink-50/40
+Games Page: bg-gradient-to-br from-white via-blue-50/20 to-purple-50/40
+Matka Page: bg-gradient-to-br from-white via-red-50/20 to-orange-50/40
+Color King: bg-gradient-to-br from-white via-purple-50/20 to-pink-50/40
+Other Games: bg-gradient-to-br from-white via-cyan-50/20 to-blue-50/40
+Liquid Glass Card System:
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.glass-primary {
+  background: rgba(147, 51, 234, 0.25);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(147, 51, 234, 0.4);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(147, 51, 234, 0.3);
+}
+
+.glass-accent {
+  background: rgba(236, 72, 153, 0.25);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(236, 72, 153, 0.4);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(236, 72, 153, 0.3);
+}
+Floating Animated Orbs (Per Page):
+All pages have 3-4 floating animated orbs with different sizes and colors:
+
+Sizes: 256px, 320px, 192px, 224px diameter
+Animation: animate-pulse with staggered delays (1s, 2s, 3s)
+Blur: blur-3xl (64px) and blur-2xl (40px)
+Opacity: 40-60% for vibrant visibility
+Positioning: Absolute positioned at corners and center areas
+🏠 HOMEPAGE LAYOUT
+Header Section:
+Large logo with Crown icon in glass-primary container
+Title "GameZone" with gradient text: bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent
+Subtitle in muted-foreground describing the platform
+Main Hero Card:
+Center-positioned glass-card with max-width-md
+Large gradient gaming icon in circular container
+"Ready to Play?" heading (text-2xl font-bold)
+Descriptive text about game collection
+Primary CTA button: "Play Games" with Gamepad2 and Sparkles icons
+Button style: bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 rounded-full
+Features Grid:
+Three glass-card features in grid:
+
+Big Rewards - Trophy icon (yellow) - "Win amazing prizes and jackpots"
+Fast & Fair - Zap icon (accent) - "Quick games with transparent results"
+Easy to Play - Star icon (primary) - "Simple games for everyone"
+🎮 GAMES SELECTION PAGE
+Header:
+Back button (glass-card styled, ArrowLeft icon)
+Crown icon + "Choose Your Game" title with gradient text
+Game Cards Grid:
+8 game cards in responsive grid (1/2/3/4 columns):
+
+Play Matka - Dices icon - Red gradient (from-red-500 to-red-600)
+Color King - Palette icon - Blue/Purple gradient (from-blue-500 to-purple-600)
+Plane Race - Plane icon - Green gradient (from-green-500 to-emerald-600)
+Roll The Dice - Dices icon - Orange/Red gradient (from-orange-500 to-red-500)
+Lucky Wheel - RotateCcw icon - Purple/Pink gradient (from-purple-500 to-pink-600)
+Card Clash - Spade icon - Indigo/Blue gradient (from-indigo-500 to-blue-600)
+Treasure Tower - Building icon - Yellow/Orange gradient (from-yellow-500 to-orange-600)
+Jackpot Express - Zap icon - Pink/Rose gradient (from-pink-500 to-rose-600)
+Game Card Structure:
+Glass-card container with hover effects: hover:glass-primary transition-all duration-300 hover:scale-105
+Centered gradient icon container with respective gradient
+Game title (text-lg font-bold) with hover color transition
+Description text (text-sm muted-foreground)
+"Play Now" button with matching gradient
+Bottom Info:
+Glass-accent card with gaming tips and emoji
+
+🎯 MATKA GAME PAGE
+Game Type Selection:
+7 options in grid layout, each with:
+
+Glass-card container with hover:glass-primary
+Gradient icon (different colors per option)
+Title and description
+Click to select functionality
+Options:
+
+Single Ank - Target icon - Red gradient
+Jodi - Layers icon - Blue gradient
+Single Panna/Pattti - Star icon - Green gradient
+Double Patti - Crown icon - Purple gradient
+Triple Patti - Dices icon - Orange gradient
+Half Sangam - Target icon - Pink gradient
+Full Sangam - Crown icon - Indigo gradient
+Number Selection (Single Ank):
+Glass-card container with Target icon header
+Grid of 10 buttons (0-9) in 5x2 or 10x1 layout
+Selected button: red background, unselected: glass-card with red border
+All buttons: aspect-square rounded-full
+Coin Selection:
+Glass-card container with Coins icon header
+Preset values: 5, 10, 20, 50, 100, 200, 500, 1000
+Grid layout 2x4 or 4x2
+Selected: yellow gradient, unselected: glass-card with yellow border
+Custom amount input: glass-card styled with rounded-full
+All buttons: rounded-full
+Play Control:
+Glass-card with game summary and Play button
+Play button: bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 font-semibold rounded-full
+🎨 COLOR KING GAME PAGE
+Game Description Card:
+Crown icon with yellow color
+"4 Color Luck Game" title
+Description about gameplay
+Color Selection:
+4 large color buttons in 2x2 grid:
+
+Red - bg-game-red text-white - Ring effect when selected
+Green - bg-game-green text-white
+Blue - bg-game-blue text-white
+Yellow - bg-game-yellow text-black
+All color buttons: h-20 text-lg font-bold rounded-3xl with hover shadow effects
+
+Betting System:
+Same coin selection as Matka but with yellow theme
+
+Game Animation:
+When playing:
+
+Glass-primary card with bouncing crown icon
+"Selecting Winner..." text
+4 colored dots with staggered pulse animation
+2-second simulation delay
+Result Display:
+Win: Green-themed glass card with crown icon
+Lose: Red-themed glass card with star icon
+Winner announcement with color name
+"Play Again" button with purple/pink gradient
+🔧 PLACEHOLDER PAGES
+Coming Soon Structure:
+Glass-card container (max-width-md)
+Construction icon in gradient primary/accent container
+"Coming Soon!" heading
+Game-specific description
+Two buttons: "Back to Games" (gradient) and "Go to Homepage" (outline glass-card)
+🎯 TECHNICAL SPECIFICATIONS
+Icons (Lucide React):
+Navigation: ArrowLeft, Crown
+Gaming: Gamepad2, Dices, Palette, Plane, RotateCcw, Spade, Building, Zap
+UI: Trophy, Star, Sparkles, Target, Layers, Coins, Play, Construction
+Button Styles:
+Primary: Gradient with rounded-full, hover scale and shadow effects
+Secondary: Glass-card with border, rounded-full
+Icon: Glass-card, 40x40px, rounded-full
+Game: Matching gradient per game theme
+Typography:
+Headers: text-3xl to text-6xl, font-bold, gradient text
+Subheaders: text-xl to text-2xl, font-semibold
+Body: text-sm to text-lg, muted-foreground for descriptions
+Buttons: font-semibold
+Responsive Design:
+Grid layouts: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+Container: container mx-auto px-4 py-6
+Max widths: max-w-md, max-w-2xl for centered content
+Animations:
+Transitions: transition-all duration-300
+Hover effects: hover:scale-105, hover:shadow-xl
+Pulse animations: animate-pulse with delays
+Transform: transform hover:scale-105
+Navigation:
+React Router setup with routes:
+
+/ - Homepage
+/games - Games selection
+/games/matka - Matka game
+/games/color-king - Color King game
+/games/:gameId - Placeholder for other games
+This prompt covers every visual element, interaction, color, animation, and technical detail needed to recreate the exact same UI.
+
+This response was free, no credits were used

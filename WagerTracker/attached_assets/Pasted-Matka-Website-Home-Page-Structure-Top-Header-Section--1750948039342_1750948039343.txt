@@ -1,0 +1,62 @@
+Matka Website - Home Page Structure
+________________________________________
+Top Header Section:
+•	Website Name: :::SattaMatka:::
+•	Tagline: "सबसे तेज़ और भरोसेमंद वेबसाइट
+•	Note: This section serves as an informative header (Not Clickable).
+Welcome Section:
+•	Displays a welcoming message to users. (“””SattaMatkaXpert is the fastest and most trusted platform for all major Satta Bazar results, यहाँ मिलता है सबसे तेज़ रिज़ल्ट, भरोसेमंद गेसिंग और पक्का गेम का अंदाज़ा!, Har Roz Milega Best Guessing, Free Tips & Live Results – Bilkul Real Time!, Trusted by thousands of Matka Lovers for Weekly Line, Open-Close Fix, and Date Fix Game. Thank You for choosing SattaMatkaXpert – जहां बात सिर्फ़ जीत की होती है! “”” )
+•	Purely informational (Not Clickable).
+Today's Lucky Number:
+•	Displays the lucky number of the day prominently.
+•	Informational only “””{Ank (शुभांक) 2-4-5-7  }””” (Not Clickable).
+Live Results Display:
+•	Dynamic Updates: Displays real-time results for ongoing or upcoming games.(Only 1-2 result show hoenge jo live aaenge time pr wo like kalyan 248-40-668) aur is result ke neeche referesh button ho.
+•	Download Section: 
+o	APK Download: "PlayMatka" (Clickable Button)
+o	Free Android App Download option for easy access.(“”” अब मटका खेलना हुआ बेहद आसान, घर बैठे मोबाइल ऐप पर खेलो सारे गेम्स, पाओ सबसे तेज़ रिज़ल्ट, लाइव अपडेट्स और फ्री गेसिंग टिप्स, अभी डाउनलोड करो और शुरू करो अपनी किस्मत आज़माना, क्योंकि असली मटका अब आपकी उंगलियों पर है!)
+Game Results Section:
+Design a "Live Matka Result" section with the following layout for each game result:
+Each result should be in a separate horizontal card stacked vertically
+Left side of the card: A  Rounded button labeled "Jodi" aligned to the left edge.
+Right side of the card: A red Rounded button labeled "Panel" aligned to the right edge.
+Center content (vertically stacked)
+Game Name in bold and uppercase.
+Result Format: 3-digit - 2-digit - 3-digit (e.g., 249-50-668), bold and clearly visible.
+Timing: Show below the result within brackets (e.g., (09:40 - 10:40)).
+Some games should appear highlighted:
+For example, if the game name is "SRIDEVI", make the background & bold text.
+
+Result Timing Information:
+•	A dedicated static box displaying result announcement timings.
+•	Informational only (Not Clickable).
+Optional: Use small relevant icons if possible (e.g., chat icon for "Chatting Formula", calculator for "Guessing Formula").
+
+
+Design a section titled “DAILY GAMES ZONE (MEETING ROOM)
+Below the title, display individual cards stacked vertically (one per row, not side-by-side).
+DAILY GAMES ZONE
+Below the result section, create another titled section:
+•  Card 1: Guessing Formula
+•  Card 2: Expert Formula
+•  Card 3: Chatting Formula
+•   Card 4: Free open to close
+
+Each card should be:
+Clickable (buttons)
+“CHART ZONE” Section:
+Design a section titled “CHART ZONE”.
+Below the title, show a vertical list of items. Each item should be on a single row (not side-by-side).
+Each row should display:
+•	The game name (e.g., Sridevi, Kalyan, etc.)
+•	Followed by the word “Chart” (e.g., Sridevi Chart, Kalyan Chart)
+Make each row fully clickable (like a button or link).
+Example rows:
+•	Sridevi Chart
+•	Kalyan Chart
+•	Madhur Chart
+•	Milan Day Chart
+•	Time Bazar Chart
+•	Disclaimer Section:
+•	Clearly outlines responsible gaming policies and legal disclaimers.
+•	Informational only (Not Clickable).

@@ -1,0 +1,139 @@
+Complete SattaMatka Homepage Creation Prompt
+Task: Create a professional SattaMatka gaming website homepage with modern glass morphism design, liquid effects, and vibrant gradients.
+
+Design Requirements:
+🎨 Visual Theme:
+
+Glass morphism cards with backdrop blur effects
+Red (#DC2626) to orange (#EA580C) gradients throughout
+Floating animated orbs in background
+Gold (#F59E0B) accents for premium elements
+Semi-transparent overlays with subtle shadows
+Modern typography supporting Hindi/English text
+📱 Layout Structure (Top to Bottom):
+
+Sticky Header Navigation
+
+Logo: "SattaMatka" with crown icon (left)
+Menu: Home|Games|Charts|Results|About (center)
+User area: Login/Register buttons, wallet display (right)
+Mobile: Hamburger menu with slide-out navigation
+Hero Banner Section
+
+Large title: "INDIA'S #1 SATTAMATKA PLATFORM"
+Subtitle: "Win Big, Play Safe, Trust the Best"
+Feature badges: "✨ Instant Results ✨ Secure Payments ✨ 24/7 Support"
+CTA buttons: [PLAY NOW] [VIEW CHARTS]
+Live stats ticker: "📈 Live Players: 15,247 | Today's Winners: 1,893"
+Floating orb animations in background
+Animated Statistics Counter
+
+5 columns showing: "50,000+ Players | 15,000+ Winners | 10+ Years | 99.9% Uptime | ₹50L+ Paid"
+Numbers should animate on page load
+Bilingual Welcome Section
+
+Split layout: English (left) | Hindi (right)
+Glass card design with welcome messages in both languages
+Lucky Numbers Display
+
+Title: "🍀 TODAY'S LUCKY NUMBERS - [Current Date]"
+3 cards layout: SINGLE ANK (7) | JODI (45) | PANNA (123)
+Each number in golden styling with "Golden Number", "Silver Pair", "Bronze Triple" labels
+Buttons: [🔄 REFRESH] [📱 GET ALERTS]
+Live Results Ticker
+
+Scrolling banner: "🔴 LIVE: KALYAN 123-45-678 | MILAN DAY --** | RAJDHANI CLOSED"
+Featured Games Grid
+
+Section 1: "🌅 MORNING GAMES" (3 columns)
+SRIDEVI MORNING (09:45-10:45) [🟢 LIVE] [PLAY NOW]
+MILAN MORNING (10:20-11:20) [🟡 OPENING] [PLAY NOW]
+TIME BAZAR MORNING (11:10-12:10) [🔴 CLOSED] [VIEW CHART]
+Section 2: "🌞 DAY GAMES" (4 columns)
+⭐ KALYAN (04:40-06:40) [🟢 LIVE] [PLAY NOW] (highlighted with golden border)
+MILAN DAY (03:10-05:10) [🟡 SOON] [PLAY NOW]
+RAJDHANI DAY (03:00-05:00) [🟡 SOON] [PLAY NOW]
+SUPREME DAY (03:25-05:25) [🟡 SOON] [PLAY NOW]
+Section 3: "🌙 NIGHT GAMES" (4 columns showing 4 games with similar layout)
+Chart Zone Preview
+
+Title: "📊 WEEKLY CHARTS - Quick View"
+Game selector tabs: [KALYAN] [MILAN] [RAJDHANI] [ALL GAMES ▼]
+Table with columns: DATE | KALYAN | MILAN DAY | RAJDHANI
+Sample data:
+Mon: 123-45-678 | 234-56-789 | --**
+Tue: 234-56-789 | --** | 456-78-901
+Wed: --** | 345-67-890 | 567-89-012
+Today: 🔴 PENDING | 🔴 PENDING | 🔴 PENDING
+Buttons: [📈 VIEW FULL CHARTS] [📊 DOWNLOAD PDF] [🔍 SEARCH RESULTS]
+Interactive Features Section
+
+Title: "🎮 DAILY GAMING ZONE"
+3 columns:
+"🧮 CALCULATOR" - Formula Helper, Profit Analysis [CALCULATE]
+"💬 LIVE CHAT" - Community Talk, Share Strategies [JOIN CHAT]
+"💡 TIPS & TRICKS" - Expert Predictions, Winning Patterns [READ TIPS]
+Recent Winners Showcase
+
+Title: "🏆 TODAY'S BIG WINNERS"
+4 columns showing: Player name (masked), Amount won, Game name, Time ago
+Example: "Raj***85 | Won ₹15,000 | KALYAN | 2 hrs ago"
+Buttons: [VIEW ALL WINNERS] [JOIN THE WINNING TEAM]
+Mobile App Download Section
+
+Title: "📱 DOWNLOAD OUR MOBILE APP"
+App screenshots carousel
+Features list: Instant Notifications, Offline Charts, Secure Payments, Live Updates, 24/7 Support
+Download buttons: [📱 Google Play] [🍎 App Store] [📲 Direct APK]
+QR code for mobile download
+Trust & Security Section
+
+Title: "🔒 TRUST & SECURITY"
+4 columns: SSL ENCRYPTED | SECURE PAYMENTS | INSTANT WITHDRAWAL | LICENSED PLATFORM
+Descriptions: "Bank Level Security" | "All Major Methods" | "Within 30 Minutes" | "Government Approved"
+Customer Support Section
+
+Title: "🎧 24/7 CUSTOMER SUPPORT"
+3 columns: CALL US (+91-XXXX) | LIVE CHAT (Available Now) | EMAIL US (support@site.com)
+Action buttons for each method
+Footer Section
+
+4 columns: Company Info | Quick Links | Payment Methods | Social Media
+Content includes: About Us, Terms, Privacy Policy, Payment logos, Social icons
+Bottom disclaimer: "⚠️ Gambling involves risk. Play responsibly. 18+ only."
+Copyright: "🔒 Licensed & Regulated | 🇮🇳 Made in India | © 2025 SattaMatka Platform"
+Technical Specifications:
+🎯 Responsive Design:
+
+Mobile-first approach (320px+)
+Tablet optimization (768px+)
+Desktop layout (1024px+)
+Touch-friendly buttons and navigation
+⚡ Performance & Animation:
+
+Smooth scrolling with parallax effects
+Loading skeletons for all sections
+Auto-refresh every 30 seconds for live data
+Hover effects on all interactive elements
+Floating orb animations with CSS/JavaScript
+🎨 CSS Requirements:
+
+Glass morphism: backdrop-filter: blur(10px) with semi-transparent backgrounds
+Gradient backgrounds: linear-gradient(135deg, #DC2626, #EA580C)
+Box shadows: box-shadow: 0 8px 32px rgba(220, 38, 38, 0.1)
+Border radius: border-radius: 16px for cards
+Typography: Bold headers, readable body text with fallback fonts
+📊 Interactive Elements:
+
+All buttons should have hover/click animations
+Form inputs with focus states
+Dropdown menus with smooth transitions
+Modal popups for detailed information
+Toast notifications for user actions
+🔧 Framework Suggestions:
+
+HTML5, CSS3, JavaScript ES6+
+Bootstrap/Tailwind CSS for responsive grid
+Animation libraries: AOS, GSAP, or CSS animations
+Icon libraries: Font Awesome, Lucide, or custom SVGs
+Create this homepage ensuring every section is pixel-perfect with the glass morphism aesthetic, proper spacing, and professional gaming platform appearance. The design should feel premium, trustworthy, and exciting for SattaMatka players.
